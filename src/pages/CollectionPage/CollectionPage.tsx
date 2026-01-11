@@ -58,7 +58,7 @@ export const CollectionPage = () => {
             onClick={(e) => e.stopPropagation()}
           >
             <img
-              src={`${import.meta.env.BASE_URL}${lightboxImage}`}
+              src={lightboxImage}
               className="max-w-full max-h-[90vh] object-contain rounded-lg"
             />
 

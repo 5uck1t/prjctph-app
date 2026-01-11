@@ -33,7 +33,7 @@ export const HomePage = () => {
         {Collections.map((item) => (
           <div key={item.id} className="collection-item rounded-lg overflow-hidden shadow-md md:me-4 mb-4" onClick={() => (navigate(`collection/${item.id}`))} data-aos="zoom-in">
             <div className="w-full h-40 overflow-hidden">
-              <img src={`${import.meta.env.BASE_URL}${item.image}`} className="w-full object-cover"></img>
+              <img src={item.image} className="w-full object-cover"></img>
             </div>
             <div className="flex flex-col justify-center items-center">
               <h3 className="text-sm mt-2 text-gray-900">{item.title}</h3>

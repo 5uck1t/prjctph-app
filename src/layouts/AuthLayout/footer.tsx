@@ -1,4 +1,5 @@
 import { Instagram } from "react-feather"
+import { Link } from "react-router-dom"
 
 export const Footer = () => {
   return (
@@ -18,9 +19,9 @@ export const Footer = () => {
           {/* Quick Links */}
           <div>
             <h3 className="text-sm font-semibold mb-2">Quick Links</h3>
-            <a href="/" className=" text-gray-400 hover:text-white text-xs">
+            <Link to="/" className=" text-gray-400 hover:text-white text-xs">
               Home
-            </a>
+            </Link>
           </div>
 
           {/* Connect */}

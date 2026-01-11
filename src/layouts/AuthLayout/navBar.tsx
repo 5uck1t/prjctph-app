@@ -1,4 +1,5 @@
 import { Image } from "react-feather";
+import { Link } from "react-router-dom";
 
 export const NavBar = () => {
   return (
@@ -14,12 +15,12 @@ export const NavBar = () => {
 
           {/* Nav links */}
           <div className="flex items-center space-x-4">
-            <a
-              href="/"
+            <Link
+              to="/"
               className="text-gray-500 hover:text-indigo-600 px-2 py-1 text-xs font-medium"
             >
               Home
-            </a>
+            </Link>
           </div>
 
         </div>
